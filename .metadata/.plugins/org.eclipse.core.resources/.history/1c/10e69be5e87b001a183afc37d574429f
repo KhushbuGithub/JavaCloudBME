@@ -1,0 +1,19 @@
+package com.capgemini.bookmydoctor.service;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.capgemini.bookmydoctor.dao.UserDAO;
+import com.capgemini.bookmydoctor.dto.User;
+
+@SpringBootTest
+class UserServiceTest {
+
+	@Autowired
+	 private UserService service;
+	 User bean =null;
+	 boolean addUser = false;
+}
